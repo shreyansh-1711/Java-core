@@ -1,6 +1,6 @@
-# Multithreading in Java
+# Java Core
 
-A small Java workspace for writing and running examples with `javac`.
+A small Java workspace for writing and running core Java examples with `javac`.
 
 ## Requirements
 
@@ -9,13 +9,13 @@ A small Java workspace for writing and running examples with `javac`.
 ## Compile
 
 ```powershell
-javac -d out src/main/java/com/example/multithreading/Main.java
+javac -d out src/main/java/com/example/multithreading/thread.java
 ```
 
 ## Run
 
 ```powershell
-java -cp out com.example.multithreading.Main
+java -cp out com.example.multithreading.thread
 ```
 
 ## Project Layout
@@ -24,4 +24,3 @@ java -cp out com.example.multithreading.Main
 src/main/java/   Java source files
 out/             Compiled classes, ignored by Git
 ```
-
